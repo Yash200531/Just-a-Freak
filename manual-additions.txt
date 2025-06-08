@@ -1,0 +1,32 @@
+Manual Additions & Developer Notes
+----------------------------------
+
+This project intentionally excludes certain images and URLs from the core files. 
+Below are the details of what needs to be added manually:
+
+1. index.html
+----------------
+- This file does NOT currently include any <img> tags or image sections.
+- If you wish to display images on the page, please add <img src="..." alt="..."> 
+  tags manually where appropriate.
+
+2. style.css
+----------------
+- The stylesheet references background images using CSS properties.
+- However, the actual URLs or files for those images are not included.
+- Please manually add valid background-image URLs in the relevant selectors.
+
+3. assets/ or images/ folder
+-----------------------------
+- The assets/images folder is not populated yet.
+- Testing was done but image behavior was not as expected.
+- This folder is reserved for future updates — you can add your own images here.
+
+General Note:
+---------------
+This project is still a work-in-progress (WIP), especially on mobile responsiveness. 
+Margin, padding, and alignment issues may still appear on small screen devices.
+
+Author:
+--------
+Yash — just a freak making weirdly beautiful things on the web.
